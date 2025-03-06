@@ -58,6 +58,7 @@ while True:
 
     elif operacao == "b": 
             
+            #Condições para cada situação
             valor_saque = float(input("escreva o valor que deseja sacar:"))
 
             excedeu_limite_saldo = valor_saque > saldo
