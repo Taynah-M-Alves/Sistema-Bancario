@@ -62,11 +62,11 @@ Fomos contratados por um grande banco para desenvolver o seu novo sistema bancá
 ## Exemplos de Uso 💡
 
 ### Depósito:
-Digite o valor a ser depositado: 1000
+Digite o valor a ser depositado: 1000 </br>
 Deposito realizado com sucesso! Seu saldo atual é 1000.
 
 ### Saque:
-Digite o valor a ser sacado: 200
+Digite o valor a ser sacado: 200 </br>
 Saque realizado com sucesso! Seu saldo atual é 200.
 
 ### Extrato:
