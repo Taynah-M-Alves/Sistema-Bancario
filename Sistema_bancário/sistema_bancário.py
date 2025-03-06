@@ -23,8 +23,8 @@ def depositar(valor_deposito):
         global saldo
         global extrato
         saldo += valor_deposito
-        extrato += f"+ R${valor_deposito:.2f}" # adiciona o valor depositado a lista extrato
-        return print(f"Deposito realizado com sucesso! Seu saldo atual é {saldo}")
+        extrato += f"+ R${valor_deposito:.2f}\n" # adiciona o valor depositado a lista extrato
+        return print(f"Deposito realizado com sucesso! Seu saldo atual é {saldo}.")
 
 # Essa funcao é responsavel por: 
 # sacar(debitar o valor_saque do saldo); 
@@ -35,9 +35,9 @@ def sacar(valor_saque):
         global extrato
         global saque_diario
         saldo -= valor_saque
-        extrato.append(f"- R${valor_saque:.2f}") # adiciona o valor sacado a lista extrato
+        extrato += f"- R${valor_saque:.2f}\n" # adiciona o valor sacado a lista extrato
         saque_diario += 1
-        return print(f"Saque realizado com sucesso! Seu saldo atual é {saldo}")
+        return print(f"Saque realizado com sucesso! Seu saldo atual é {saldo}.")
 
 # a funcao while garante que o ciclo será repetido ate que o usuario digite "d"
 while True:
